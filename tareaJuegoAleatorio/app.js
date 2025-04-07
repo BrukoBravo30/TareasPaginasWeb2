@@ -1,5 +1,5 @@
 let numeroMaquina = Math.floor(Math.random() * (10 - 1) + 1);
-console.log(numeroMaquina); // Esto está para fines de prueba, puedes quitarlo después.
+console.log(numeroMaquina); 
 
 let numeroUser = parseInt(prompt("Ingresa un número entre 1 y 10: "));
 let vidas = 5;
