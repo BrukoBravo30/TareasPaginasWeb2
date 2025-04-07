@@ -1,1 +1,1 @@
-# Inventario JS\n\nAplicación en JavaScript que permite gestionar un inventario de productos. El usuario puede agregar productos, mostrarlos, y buscar un producto por nombre. Utiliza  y  para la interacción con el usuario.
+# Aplicación en JavaScript que permite gestionar un inventario de productos. El usuario puede agregar productos, mostrarlos, y buscar un producto por nombre.
