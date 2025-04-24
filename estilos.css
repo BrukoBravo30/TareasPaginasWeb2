@@ -1,0 +1,10 @@
+.calculator {
+    width: 350px;
+    border-radius: 15px;
+    background-color: #ffffff;
+  }
+  
+  button {
+    font-size: 1.2rem;
+  }
+  
