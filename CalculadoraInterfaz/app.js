@@ -3,11 +3,11 @@ function append(value) {
     display.value += value;
   }
   
-  function clearDisplay() {
+  function limpiar() {
     document.getElementById('display').value = '';
   }
   
-  function calculate() {
+  function calcular() {
     const display = document.getElementById('display');
     try {
       const resultado = eval(display.value);
