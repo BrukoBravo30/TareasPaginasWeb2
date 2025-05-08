@@ -1,0 +1,63 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb); /* degradado suave */
+  min-height: 100vh;
+}
+
+/* Estilo de enlaces */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ffd54f;
+}
+
+/* Navbar personalizado */
+.navbar {
+  background-color: #1976d2; /* azul intenso */
+  padding: 15px 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+/* Calculadora */
+.calculadora {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  max-width: 350px;
+  width: 100%;
+}
+
+/* Espaciado general dentro del contenedor */
+.container {
+  padding-top: 30px;
+}
