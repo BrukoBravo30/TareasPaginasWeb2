@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="/stylesheets/vibora.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">INICIO</a>
+      <ul class="nav-links">
+        <li><a href="/gato">Gato</a></li>
+        <li><a href="/vibora">Vibora</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Snake Game</h1>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div class="info">
+      <p>Puntuación: <span id="score">0</span></p>
+      <button id="restartBtn">Reiniciar</button>
+    </div>
+    <div id="countdown" class="countdown"></div>
+  </div>
+
+  <script src="/javascripts/vibora.js"></script>
+</body>
+</html>

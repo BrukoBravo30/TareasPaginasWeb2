@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+nav {
+  width: 100%;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #0f0;
+  padding: 10px 0;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0f0;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0f0;
+}
+
+/* GAME */
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+canvas {
+  background-color: #222;
+  border: 2px solid #0f0;
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0f0;
+  color: black;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #0c0;
+}
+
+.countdown {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #0f0;
+  height: 40px;
+}

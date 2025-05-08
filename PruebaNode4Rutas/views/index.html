@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Juegos</title>
+  <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">Mini Juegos</a>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/vibora">Víbora</a></li>
+        <li><a href="/gato">Gato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <h1>Elige tu juego</h1>
+  </header>
+
+  <main class="card-container">
+    <div class="game-card" onclick="location.href='/gato'">
+      <img src="/images/gato.png" alt="Juego del gato">
+      <div class="card-content">
+        <h2>Juego del Gato</h2>
+        <p>Desafía a un amigo en este clásico juego de tres en línea.</p>
+      </div>
+    </div>
+
+    <div class="game-card" onclick="location.href='/vibora'">
+      <img src="/images/snake.jpg" alt="Juego de la víbora">
+      <div class="card-content">
+        <h2>Juego de la Víbora</h2>
+        <p>Come toda la comida que puedas y crece sin chocar.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascripts/index.js"></script>
+</body>
+</html>
