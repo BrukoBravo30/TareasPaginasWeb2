@@ -1,0 +1,14 @@
+<h1>Actualizar Computadora</h1>
+
+<form action="/computadoras/actualizar/{{computadora.clave}}" method="POST">
+  <div class="mb-3">
+    <label for="marca" class="form-label">Marca</label>
+    <input type="text" id="marca" name="marca" value="{{computadora.marca_computadora}}" class="form-control" required />
+  </div>
+  <div class="mb-3">
+    <label for="modelo" class="form-label">Modelo</label>
+    <input type="text" id="modelo" name="modelo" value="{{computadora.modelo_computadora}}" class="form-control" required />
+  </div>
+  <button type="submit" class="btn btn-success">Guardar Cambios</button>
+  <a href="/computadoras" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,39 @@
+<h1>Computadoras</h1>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Marca</th>
+      <th>Modelo</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each computadoras}}
+      <tr>
+        <td>{{this.clave}}</td>
+        <td>{{this.marca_computadora}}</td>
+        <td>{{this.modelo_computadora}}</td>
+        <td>
+          <a href="/computadoras/actualizar/{{this.clave}}" class="btn btn-warning btn-sm">Actualizar</a>
+          <a href="/computadoras/eliminar/{{this.clave}}" class="btn btn-danger btn-sm">Eliminar</a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+<h2>Agregar Nueva Computadora</h2>
+
+<form action="/computadoras/agregar" method="POST" class="mb-4">
+  <div class="mb-3">
+    <label for="marca" class="form-label">Marca</label>
+    <input type="text" id="marca" name="marca" class="form-control" required />
+  </div>
+  <div class="mb-3">
+    <label for="modelo" class="form-label">Modelo</label>
+    <input type="text" id="modelo" name="modelo" class="form-control" required />
+  </div>
+  <button type="submit" class="btn btn-primary">Agregar</button>
+</form>

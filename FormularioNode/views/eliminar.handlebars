@@ -1,0 +1,8 @@
+<h1>Eliminar Computadora</h1>
+
+<p>¿Estás seguro de que deseas eliminar la computadora <strong>{{computadora.marca_computadora}} {{computadora.modelo_computadora}}</strong>?</p>
+
+<form action="/computadoras/eliminar/{{computadora.clave}}" method="POST">
+  <button type="submit" class="btn btn-danger">Eliminar</button>
+  <a href="/computadoras" class="btn btn-secondary">Cancelar</a>
+</form>
