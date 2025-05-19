@@ -11,7 +11,7 @@ router.get('/computadoras', (req, res) => {
     res.json(resultados);
   });
 });
-
+//prueba para verificar que se conecto exitosamente a la base de datos
 router.get('/test', (req, res) => {
   db.query('SELECT NOW() AS hora', (err, resultados) => {
     if (err) {
